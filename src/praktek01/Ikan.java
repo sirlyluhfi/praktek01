@@ -10,14 +10,16 @@ package praktek01;
  * @author Lenovo
  */
 public class Ikan {
+    String nama;
     String bentuk;
     String warna;
     String habitat;
-    Integer banyak_sisik;
-    Integer jumlah_sirip;
+    String banyak_sisik;
+    String jumlah_sirip;
     
     
    void CaraBerkembangBiak(){
+       System.out.println("nama ikan : "+nama);
        System.out.println("Bentuk Ikan : "+bentuk);
        System.out.println("warna Ikan : "+warna);
        System.out.println("habitat Ikan : "+habitat);

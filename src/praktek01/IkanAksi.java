@@ -11,7 +11,9 @@ package praktek01;
  */
 public class IkanAksi {
     public static void main(String[] args) {
-        
+       Ikan gabus = new Ikan();
+       Ikan hiu = new Ikan();
+       Ikan kerapu = new Ikan();
     }
-    
+      
 }
